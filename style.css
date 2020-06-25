@@ -6469,3 +6469,6 @@ a.to-the-top > * {
 		top: 0;
 	}
 }
+p{
+	font-family: 'Helvetica Neue' !important;
+}
