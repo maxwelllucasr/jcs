@@ -12,8 +12,6 @@ get_header();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 
-<div>hello world</div>
-
 <?php
 // get_content();
 ?>
@@ -35,11 +33,17 @@ get_footer();
 
 <script>
     $(document).ready(function(){
-        $(".slider-parent").slick()
-
-
+        $(".slider-parent").slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed:5000,
+            autoplaySpeed: 0,
+            cssEase:'linear',
+            arrows:false,
+        });
     })
-
+    
 </script>
 
 
@@ -47,12 +51,13 @@ get_footer();
 .slider-parent{
     display:block;
     margin:auto;
-    width:50%;
+    width:40%;
 }
 
 .slider-parent img{
     display:block;
     margin:auto;
+    width:90%
 }
 
 .slick-prev,.slick-next{
