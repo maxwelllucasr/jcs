@@ -16,13 +16,13 @@ get_header();
 // get_content();
 ?>
 <body>
-    <div style="width:100%;">
+    <div class="jcs-carousel-container">       
         <div class="slider-parent">
             <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
             <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
             <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
             <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
-        </div>
+        </div>      
     </div>
 </body>
 
@@ -64,5 +64,10 @@ get_footer();
     display:block;
     margin:10px auto;
 
+}
+
+.jcs-carousel-container{
+    width:100%;
+    margin:1rem auto;
 }
 </style>
