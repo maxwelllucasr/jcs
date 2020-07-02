@@ -72,13 +72,13 @@ get_footer();
 .slider-parent{
     display:block;
     margin:auto;
-    width:40%;
+    width:100%;
     padding:1rem;
 }
 
 @media(max-width:600px){
-    .slider-parent{
-        width:100%;
+    .jcs-carousel-container{
+        width:90%;
     }
 }
 
@@ -96,7 +96,7 @@ get_footer();
 }
 
 .jcs-carousel-container{
-    width:100%;
+    width:40%;
     margin:9rem auto 1rem auto;
     height:auto;
     background-color:grey;
