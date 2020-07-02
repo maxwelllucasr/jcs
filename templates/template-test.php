@@ -12,9 +12,6 @@ get_header();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 
-<?php
-// the_content();
-?>
 <body>
     <header class="entry-header has-text-align-center header-footer-group">
         <h1 class="entry-title">Jackson College CCDC</h1>
@@ -27,6 +24,11 @@ get_header();
             <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
         </div>      
     </div>
+    <?php
+        while ( have_posts() ) : the_post();
+        the_content();
+    endwhile; // End of the loop.
+    ?>       
 
 </body>
 
