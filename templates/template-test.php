@@ -16,6 +16,9 @@ get_header();
 // get_content();
 ?>
 <body>
+    <header class="entry-header has-text-align-center header-footer-group">
+        <h1 class="entry-title">Jackson College CCDC</h1>
+    </header>
     <div class="jcs-carousel-container">       
         <div class="slider-parent">
             <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
@@ -40,7 +43,7 @@ get_footer();
 <script>
     $(document).ready(function(){
         $(".slider-parent").slick({
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
             speed:4000,
@@ -70,6 +73,7 @@ get_footer();
     display:block;
     margin:auto;
     width:40%;
+    padding:1rem;
 }
 
 @media(max-width:600px){
@@ -95,5 +99,7 @@ get_footer();
     width:100%;
     margin:9rem auto 1rem auto;
     height:auto;
+    background-color:grey;
+    /* border:5px solid black; */
 }
 </style>
