@@ -67,8 +67,8 @@ get_footer();
     font-family:"helvetica";
     font-size:22px;
     width:50%;
-    text-align:center;
-    margin:5rem auto;
+    text-align:left;
+    margin:5rem 80rem auto auto;
 }
 
 .slider-parent{
@@ -93,7 +93,7 @@ get_footer();
 
 .jcs-carousel-container{
     width:50%;
-    margin:9rem auto 1rem auto;
+    margin:9rem 80rem 1rem auto;
     height:auto;
     background-color:#16232b;
     border:5px solid #172f35;
