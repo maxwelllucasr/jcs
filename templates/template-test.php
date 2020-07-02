@@ -63,7 +63,7 @@ get_footer();
 <style>
 .body-text{
     font-family:"helvetica";
-    font-size:20px;
+    font-size:21px;
     width:50%;
     text-align:center;
     margin:5rem auto;
@@ -74,12 +74,6 @@ get_footer();
     margin:auto;
     width:100%;
     padding:1rem;
-}
-
-@media(max-width:600px){
-    .jcs-carousel-container{
-        width:90%;
-    }
 }
 
 .slider-parent img{
@@ -99,7 +93,13 @@ get_footer();
     width:40%;
     margin:9rem auto 1rem auto;
     height:auto;
-    background-color:grey;
-    /* border:5px solid black; */
+    background-color:#001314;
+    border:5px solid #172f35;
+}
+
+@media(max-width:600px){
+    .jcs-carousel-container{
+        width:90%;
+    }
 }
 </style>
