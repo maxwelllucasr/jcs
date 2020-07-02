@@ -24,12 +24,17 @@ get_header();
             <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
         </div>      
     </div>
-    <?php
-        while ( have_posts() ) : the_post();
-        the_content();
-    endwhile; // End of the loop.
-    ?>       
-
+    <div>
+        <?php
+            while ( have_posts() ) : the_post();
+            ?>
+            <div class="content-container">
+                <?php
+                the_content();
+            endwhile; // End of the loop.
+            ?>
+            </div>
+    </div>
 </body>
 
 <?php
@@ -58,13 +63,13 @@ get_footer();
 
 
 <style>
-/* .body-text{
+.content-container{
     font-family:"helvetica";
     font-size:22px;
     width:50%;
     text-align:center;
     margin:5rem auto;
-} */
+}
 
 .slider-parent{
     display:block;
