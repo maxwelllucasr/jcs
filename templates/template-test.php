@@ -18,10 +18,10 @@ get_header();
 <body>
     <div class="jcs-carousel-container">       
         <div class="slider-parent">
-            <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
-            <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
-            <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
-            <div class="slider-child"><img src="https://dogstodaymagazine.co.uk/wp-content/uploads/2016/05/placeholder-image-707x500.png"></div>
+            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
+            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
+            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
+            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
         </div>      
     </div>
 </body>
@@ -37,10 +37,15 @@ get_footer();
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
-            speed:5000,
+            speed:4000,
             autoplaySpeed: 0,
             cssEase:'linear',
             arrows:false,
+            infinite: true,
+            centerMode: true,
+            // variableWidth:false,
+            // adaptiveHeight:true
+            variableHeight:true,
         });
     })
     
@@ -57,17 +62,19 @@ get_footer();
 .slider-parent img{
     display:block;
     margin:auto;
-    width:90%
+    width:90%;
+    border-radius:2px;
+    border: 5px solid black;
 }
 
 .slick-prev,.slick-next{
     display:block;
     margin:10px auto;
-
 }
 
 .jcs-carousel-container{
     width:100%;
     margin:9rem auto 1rem auto;
+    height:auto;
 }
 </style>
