@@ -68,6 +68,6 @@ get_footer();
 
 .jcs-carousel-container{
     width:100%;
-    margin:1rem auto;
+    margin:9rem auto 1rem auto;
 }
 </style>
