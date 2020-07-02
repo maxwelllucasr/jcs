@@ -13,7 +13,7 @@ get_header();
 </head>
 
 <?php
-// get_content();
+// the_content();
 ?>
 <body>
     <header class="entry-header has-text-align-center header-footer-group">
@@ -27,11 +27,6 @@ get_header();
             <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
         </div>      
     </div>
-    <div class="body-text">
-        <p>Collegiate Cyber Defense Competition (CCDC) is a competition where a team of nine people attempt to fend off the attack of red team hackers. Jackson College’s CCDC team has partook in every local competition since the inception of CCDN in Michigan in 2007.</p>
-        <p>Being on the CCDC team is a great foot in the door for employers, and it helps you stand out from the competition. Being on the CCDC team is also great for social networking. Our CCDC team has members who have gotten their vital first IT job because of their CCDC references.</p>
-        <p>Jackson College’s CCDC team is currently recruiting for the 2021 CCDC season. No past experience is required. The majors that are heavily encouraged to apply are Cyber-Security, Computer Networking, Cloud Networking, Programming/Software Engineering, and any other IT degree at Jackson college.</p>
-    </div>
 
 </body>
 
@@ -43,7 +38,7 @@ get_footer();
 <script>
     $(document).ready(function(){
         $(".slider-parent").slick({
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
             speed:4000,
@@ -61,13 +56,13 @@ get_footer();
 
 
 <style>
-.body-text{
+/* .body-text{
     font-family:"helvetica";
-    font-size:21px;
+    font-size:22px;
     width:50%;
     text-align:center;
     margin:5rem auto;
-}
+} */
 
 .slider-parent{
     display:block;
@@ -90,10 +85,10 @@ get_footer();
 }
 
 .jcs-carousel-container{
-    width:40%;
+    width:50%;
     margin:9rem auto 1rem auto;
     height:auto;
-    background-color:#001314;
+    background-color:#16232b;
     border:5px solid #172f35;
 }
 
