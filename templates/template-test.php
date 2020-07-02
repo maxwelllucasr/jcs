@@ -13,17 +13,38 @@ get_header();
 </head>
 
 <body>
+
     <header class="entry-header has-text-align-center header-footer-group">
         <h1 class="entry-title">Jackson College CCDC</h1>
     </header>
-    <div class="jcs-carousel-container">       
-        <div class="slider-parent">
-            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
-            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
-            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
-            <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
-        </div>      
+
+
+
+    <div class="column1">
+        <div class="jcs-carousel-container">  
+            <div class="slider-parent">
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
+            </div>      
+        </div>
     </div>
+
+
+
+    <div class="column2">
+        <div class="right-side-image-container">
+            <a href="https://jacksoncyberspace.com/current-team-for-ccdc-2020/"><div class="right-side-images" class=""><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/team.png"></div></a>
+            <a href="https://jacksoncyberspace.com/2020-topology/"><div class="right-side-images"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/nettop.png"></div></a>
+            <a href="https://jacksoncyberspace.com/contact-us/"><div class="right-side-images-below"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/contact.png"></div></a>
+        </div>
+    </div>
+
+
+
+
+
     <div>
         <?php
             while ( have_posts() ) : the_post();
@@ -63,6 +84,28 @@ get_footer();
 
 
 <style>
+
+.right-side-image-container{
+    display:block;
+    margin:7rem 10rem auto auto;
+    background-color:#16232b;
+    border:3px solid #172f35;
+    float:right;
+}
+
+.right-side-images{
+    display:block;
+    width:50%;
+    padding:1rem;
+    float:right;
+}
+.right-side-images-below{
+    display:block;
+    width:100%;
+    padding:1rem;
+    float:right;
+}
+
 .content-container{
     font-family:"helvetica";
     font-size:22px;
@@ -83,7 +126,7 @@ get_footer();
     margin:auto;
     width:90%;
     border-radius:2px;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 .slick-prev,.slick-next{
@@ -92,16 +135,25 @@ get_footer();
 }
 
 .jcs-carousel-container{
-    width:50%;
-    margin:9rem 80rem 1rem auto;
+    width:83%;
+    margin:7rem 4rem 5rem auto;
     height:auto;
     background-color:#16232b;
-    border:5px solid #172f35;
+    border:3px solid #172f35;
 }
 
 @media(max-width:600px){
     .jcs-carousel-container{
         width:90%;
     }
+}
+
+ .column1 {
+  float: left;
+  width: 60%;
+}
+.column2 {
+  float: right;
+  width: 40%;
 }
 </style>
