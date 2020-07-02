@@ -24,6 +24,10 @@ get_header();
             <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
         </div>      
     </div>
+    <p>Collegiate Cyber Defense Competition (CCDC) is a competition where a team of nine people attempt to fend off the attack of red team hackers. Jackson College’s CCDC team has partook in every local competition since the inception of CCDN in Michigan in 2007.</p>
+    <p>Being on the CCDC team is a great foot in the door for employers, and it helps you stand out from the competition. Being on the CCDC team is also great for social networking. Our CCDC team has members who have gotten their vital first IT job because of their CCDC references.</p>
+    <p>ackson College’s CCDC team is currently recruiting for the 2021 CCDC season. No past experience is required. The majors that are heavily encouraged to apply are Cyber-Security, Computer Networking, Cloud Networking, Programming/Software Engineering, and any other IT degree at Jackson college.</p>
+    
 </body>
 
 <?php
@@ -44,8 +48,7 @@ get_footer();
             infinite: true,
             centerMode: true,
             // variableWidth:false,
-            // adaptiveHeight:true
-            // variableHeight:true,
+            // adaptiveHeight:true,
         });
     })
     
@@ -53,10 +56,21 @@ get_footer();
 
 
 <style>
+.paragraph-text{
+    font:helvetica;
+
+}
+
 .slider-parent{
     display:block;
     margin:auto;
     width:40%;
+}
+
+@media only screen (max-width:600px){
+    .slider-parent{
+        width:100%;
+    }
 }
 
 .slider-parent img{
