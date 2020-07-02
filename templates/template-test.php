@@ -45,7 +45,7 @@ get_footer();
             centerMode: true,
             // variableWidth:false,
             // adaptiveHeight:true
-            variableHeight:true,
+            // variableHeight:true,
         });
     })
     
