@@ -152,6 +152,23 @@ get_footer();
 @media(max-width:1000px){
     .right-side-image-container{
         display:none;
+    
+    }
+    .content-container{
+        text-align:center;
+        margin:5rem auto;
+        width:90%;
+    }
+    .jcs-carousel-container{
+        margin:7rem auto 5rem auto;
+
+    }
+    .column1{
+        width:90%;
+        float:middle;
+    }
+    .column2{
+        width:0%;
     }
 }
 
