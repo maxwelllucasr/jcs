@@ -87,7 +87,7 @@ get_footer();
 
 .right-side-image-container{
     display:block;
-    margin:7rem 10rem auto auto;
+    margin:7rem 10rem auto 5rem;
     background-color:#16232b;
     border:3px solid #172f35;
     float:right;
@@ -111,7 +111,7 @@ get_footer();
     font-size:22px;
     width:50%;
     text-align:left;
-    margin:5rem 80rem auto auto;
+    margin:5rem auto auto 15rem;
 }
 
 .slider-parent{
@@ -136,7 +136,7 @@ get_footer();
 
 .jcs-carousel-container{
     width:83%;
-    margin:7rem 4rem 5rem auto;
+    margin:7rem 4rem 5rem 15rem;
     height:auto;
     background-color:#16232b;
     border:3px solid #172f35;
@@ -144,7 +144,14 @@ get_footer();
 
 @media(max-width:600px){
     .jcs-carousel-container{
-        width:90%;
+        /* width:90%; */
+        display:none;
+    }
+}
+
+@media(max-width:1000px){
+    .right-side-image-container{
+        display:none;
     }
 }
 
