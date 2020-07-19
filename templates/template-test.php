@@ -7,6 +7,7 @@ get_header();
 ?>
 
 <head>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
@@ -23,10 +24,10 @@ get_header();
     <div class="column1">
         <div class="jcs-carousel-container">  
             <div class="slider-parent">
-                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
-                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
-                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985338.jpg"></div>
-                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/hacker-with-laptop_23-2147985341.jpg"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/site4.jpg"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/site3.png"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/site2.jpg"></div>
+                <div class="slider-child"><img src="https://jacksoncyberspace.com/wp-content/uploads/2020/07/site1.jpg"></div>
             </div>      
         </div>
     </div>
@@ -75,7 +76,7 @@ get_footer();
             arrows:false,
             infinite: true,
             centerMode: true,
-            // variableWidth:false,
+            variableWidth:true,
             // adaptiveHeight:true,
         });
     })
@@ -85,6 +86,10 @@ get_footer();
 
 <style>
 
+
+.slider-child img{
+    height:150px;
+}
 .right-side-image-container{
     display:block;
     margin:7rem 10rem auto 5rem;
@@ -165,7 +170,6 @@ get_footer();
     }
     .column1{
         width:90%;
-        float:middle;
     }
     .column2{
         width:0%;
